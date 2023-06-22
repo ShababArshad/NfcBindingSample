@@ -27,6 +27,8 @@
     <MtouchArch>x86_64</MtouchArch>
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
+    <CodesignProvision>Automatic</CodesignProvision>
+    <CodesignKey>iPhone Developer: Muhammad Talha (UK59XJBGGF)</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -68,6 +70,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Makefile.txt" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -124,13 +127,17 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2578" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.5" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.6" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\NfcSmaple\NfcSmaple.csproj">
       <Project>{800B5A47-BA55-476C-8933-47EB23A8B5F7}</Project>
       <Name>NfcSmaple</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\NfcBindingiOS\NfcBindingiOS.csproj">
+      <Project>{114E29DC-C72D-4B61-93E9-48FC1CD23C8D}</Project>
+      <Name>NfcBindingiOS</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

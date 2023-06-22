@@ -1,0 +1,4 @@
+/Users/macbook/Documents/Bitlogix/RI/NfcBindingSample/NfcSmaple/NfcBindingiOS/obj/Debug/_ProcessedBundleResourcesPath.items
+/Users/macbook/Documents/Bitlogix/RI/NfcBindingSample/NfcSmaple/NfcBindingiOS/obj/Debug/_ProcessedContentPath.items
+/Users/macbook/Documents/Bitlogix/RI/NfcBindingSample/NfcSmaple/NfcBindingiOS/obj/Debug/NfcBindingiOS.csproj.CoreCompileInputs.cache
+/Users/macbook/Documents/Bitlogix/RI/NfcBindingSample/NfcSmaple/NfcBindingiOS/obj/Debug/NfcBindingiOS.csproj.AssemblyReference.cache

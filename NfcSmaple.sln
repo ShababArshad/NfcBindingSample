@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NfcSmaple", "NfcSmaple\NfcS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NfcBinding", "NfcBinding\NfcBinding.csproj", "{CD3557B6-5B5D-433E-98EF-2482B6A2D753}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NfcBindingiOS", "NfcBindingiOS\NfcBindingiOS.csproj", "{114E29DC-C72D-4B61-93E9-48FC1CD23C8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{CD3557B6-5B5D-433E-98EF-2482B6A2D753}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{CD3557B6-5B5D-433E-98EF-2482B6A2D753}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{CD3557B6-5B5D-433E-98EF-2482B6A2D753}.Release|iPhone.Build.0 = Release|Any CPU
+		{114E29DC-C72D-4B61-93E9-48FC1CD23C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114E29DC-C72D-4B61-93E9-48FC1CD23C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114E29DC-C72D-4B61-93E9-48FC1CD23C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114E29DC-C72D-4B61-93E9-48FC1CD23C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114E29DC-C72D-4B61-93E9-48FC1CD23C8D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{114E29DC-C72D-4B61-93E9-48FC1CD23C8D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{114E29DC-C72D-4B61-93E9-48FC1CD23C8D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{114E29DC-C72D-4B61-93E9-48FC1CD23C8D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{114E29DC-C72D-4B61-93E9-48FC1CD23C8D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{114E29DC-C72D-4B61-93E9-48FC1CD23C8D}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{114E29DC-C72D-4B61-93E9-48FC1CD23C8D}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{114E29DC-C72D-4B61-93E9-48FC1CD23C8D}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

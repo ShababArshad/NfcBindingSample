@@ -1,0 +1,43 @@
+{
+  "version": 3,
+  "targets": {
+    "Xamarin.iOS,Version=v1.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "Xamarin.iOS,Version=v1.0": []
+  },
+  "packageFolders": {
+    "/Users/macbook/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/macbook/Documents/Bitlogix/RI/NfcBindingSample/NfcSmaple/NfcBindingiOS/NfcBindingiOS.csproj",
+      "projectName": "NativeLibrary",
+      "projectPath": "/Users/macbook/Documents/Bitlogix/RI/NfcBindingSample/NfcSmaple/NfcBindingiOS/NfcBindingiOS.csproj",
+      "packagesPath": "/Users/macbook/.nuget/packages/",
+      "outputPath": "/Users/macbook/Documents/Bitlogix/RI/NfcBindingSample/NfcSmaple/NfcBindingiOS/obj/",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "/Users/macbook/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "xamarinios10"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://riteam.jfrog.io/artifactory/api/nuget/v3/nuget-preview": {}
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "xamarinios10": {}
+    }
+  }
+}
